@@ -1,7 +1,2 @@
 server:
-  port: 8082
-spring:
-  cloud:
-    config:
-      allow-override: true
-      override-system-properties: false
+  port: 8081
