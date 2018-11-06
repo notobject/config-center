@@ -1,5 +1,6 @@
-server:
-  port: 8080
+spring:
+  profiles:
+    active: dev
 test: 远程测试
 management:
   endpoints:
