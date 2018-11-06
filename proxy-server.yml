@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: test
 test: 远程测试
 management:
   endpoints:
