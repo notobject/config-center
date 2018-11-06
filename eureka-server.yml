@@ -1,0 +1,6 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false   #关闭自我注册
+    fetch-registry: false         #关闭自我发现
