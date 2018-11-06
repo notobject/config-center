@@ -1,6 +1,5 @@
 server:
   port: 8082
-test: from github
 management:
   endpoints:
     web:
