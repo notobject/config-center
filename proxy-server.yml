@@ -1,1 +1,6 @@
 test: from github
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
