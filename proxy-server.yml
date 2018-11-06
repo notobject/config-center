@@ -1,3 +1,5 @@
+server:
+  port: 8080
 test: from github
 management:
   endpoints:
