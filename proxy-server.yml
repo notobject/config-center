@@ -2,8 +2,8 @@ zuul:
   routes:
     api-a:
       path: /api/product/**
-      service-id: product-service
+      service-id: product-server
       sensitive-headers:
     api-b:
-      path: /api-order/**
-      service-id: service-consumer
+      path: /api/user/**
+      service-id: user-server
