@@ -1,6 +1,0 @@
-test: 远程测试
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
