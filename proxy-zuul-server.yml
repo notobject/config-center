@@ -1,3 +1,4 @@
+version: 1
 zuul:
   routes:
     api-user:
@@ -8,7 +9,7 @@ zuul:
       path: /api/settings/**
       service-id: demo-settings-service
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: "*"
