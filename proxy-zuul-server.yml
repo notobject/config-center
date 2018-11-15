@@ -8,9 +8,6 @@ zuul:
     api-settings:
       path: /api/settings/**
       service-id: demo-settings-service
-    api-demo:
-      path: /api/demo/**
-      service-id: demo-settings-service
 management:
   endpoints:
     web:
