@@ -10,3 +10,4 @@
 - 访问 http://api.notobject.com/tag 记住当前的值
 - 修改 ccsu-proxy-server.yml 中"tag"的值 并提交
 - 刷新 http://api.notobject.com/tag 可看到已经获取到最新的配置
+- 多次刷新，值仍是最新的，说明所有实例已获取最新配置。（api.notobject.com 已做负载均衡）
