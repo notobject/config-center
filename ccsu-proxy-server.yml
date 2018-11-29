@@ -8,8 +8,3 @@ zuul:
     api-settings:
       path: /api/settings/**
       service-id: demo-settings-service
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
