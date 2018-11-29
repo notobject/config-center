@@ -2,9 +2,9 @@ tag: 20181129-4
 zuul:
   routes:
     api-user:
-      path: /api/user/**
+      path: /user/**
       service-id: demo-user-service
       sensitive-headers:
     api-settings:
-      path: /api/settings/**
+      path: /settings/**
       service-id: demo-settings-service
