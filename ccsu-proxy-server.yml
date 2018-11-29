@@ -1,4 +1,4 @@
-tag: 20181129-3
+tag: 20181129-4
 zuul:
   routes:
     api-user:
