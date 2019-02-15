@@ -8,3 +8,5 @@ zuul:
     api-settings:
       path: /settings/**
       service-id: demo-settings-service
+
+headers: appPlatform,appVersion,sessionId
