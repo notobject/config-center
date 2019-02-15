@@ -9,4 +9,4 @@ zuul:
       path: /settings/**
       service-id: demo-settings-service
 
-headers: appPlatform,appVersion,sessionId
+required-headers: appPlatform,appVersion,sessionId
