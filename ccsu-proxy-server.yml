@@ -3,7 +3,7 @@ zuul:
   routes:
     api-user:
       path: /user/**
-      service-id: demo-user-service
+      service-id: ccsu-user-service
       sensitive-headers:
     api-settings:
       path: /settings/**
